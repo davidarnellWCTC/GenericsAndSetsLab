@@ -21,7 +21,7 @@ public class LabActivityTwo {
 
     //constructor for the Employee class, just for reference
         //Employee(String lastName, String firstName, String ssn)
-    // Just testing to see if this method works
+        // Just testing to see if this method works
         // It does
         employee.add(new Employee("Arnell", "David", "123-45-6789"));
 
@@ -39,12 +39,14 @@ public class LabActivityTwo {
 
         // Printin out the first names of each employee
         for (Employee emp : employee) {
-            System.out.println(emp.getFirstName());
+            // toString added, don't need getFirstName()
+            //System.out.println(emp.getFirstName());
+            System.out.println(emp);
         }
 
         String empInfo = "";
 
-    // The employee list is run through and the string values for the names and ssn
+        // The employee list is run through and the string values for the names and ssn
         // are added to the empInfo string and printed to the consol.
         // The Strings did not need to be cast.
         for (Employee emp : employee) {
