@@ -12,6 +12,9 @@ public class GenericsAndSetsLab {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // The lab activities are in separate classes
+        
     }
     
 }

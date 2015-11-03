@@ -24,6 +24,9 @@ public class LabActivityOne {
     
     public static void main(String[] args) {
         
+        // This class used generics and the new style for loop.
+        
+        
         // A list of type ArrayList is created to hold string objects
         List<String> hobbyItems = new ArrayList<>();
         hobbyItems.add("Wrenches");
@@ -35,8 +38,9 @@ public class LabActivityOne {
         // This for loop runs through each "item" in the hobbyItems list and pritns them
         // Each object is a String object but it still needs to be cast
         // EDIT: added the <String> to the list and item no longer needs to be cast
+        // This loop is only usable since I improperly did the challenge
         for(String item: hobbyItems){
-            System.out.println(item);
+            System.out.println((String)item);
         }
         
         System.out.println("Adding three more items to the hobbyItems list");
