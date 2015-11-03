@@ -30,11 +30,17 @@ public class LabActivityFour {
 
         
         // creating a new set of employees
-        Set<Employee> employees = new LinkedHashSet<>();
+        Set<Employee> employees = new HashSet<>();
+        
+        employees.add(emp1);
+        employees.add(emp2);
+        employees.add(emp3);
+        employees.add(emp4);
         
         // run through employee set
+        // Output should not contain Steve McQueen
         for (Employee emp : employees) {
-            System.out.println(emp.getFirstName());
+            System.out.println(emp);
         }
         
     }
